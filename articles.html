@@ -49,7 +49,7 @@
         }
 
         // JSON 파일을 불러와서 처리
-        fetchJsonWithTimestamp('db/articles.json')
+        fetchJsonWithTimestamp('https://chungyun.github.io/opticinfo/db/articles.json')
             .then(data => {
                 const newsTableBody = document.querySelector('#newsTable tbody');
                 // 기존 테이블 내용을 지움
